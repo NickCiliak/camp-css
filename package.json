@@ -38,7 +38,7 @@
     "postcss-syntax": "^0.31.0",
     "rimraf": "^2.6.2",
     "stylelint": "^9.3.0",
-    "stylelint-config-activecampaign": "github:rod/stylelint-config-activecampaign",
+    "stylelint-config-activecampaign": "github:activecampaign/stylelint-config-activecampaign",
     "watch": "^1.0.2"
   }
 }
