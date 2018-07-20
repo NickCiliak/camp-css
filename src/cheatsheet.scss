@@ -1,0 +1,32 @@
+/*
+
+Prints out the calculated pixel and rem values for relevant properties.
+
+*/
+
+@import 'functions/rem';
+@import 'variables';
+
+/*
+ * font-size
+ */
+@each $size-name, $size-value in $font-sizes {
+
+  /*  #{$size-name}  #{$size-value}  #{rem($size-value)} */
+}
+
+/*
+ * line-height
+ */
+@each $size-name, $size-value in $line-heights {
+
+  /*  #{$size-name}  #{$size-value}  #{rem($size-value)} */
+}
+
+/*
+ * spacing (gap, margin, padding)
+ */
+@each $size-name, $size-value in $spacing {
+
+  /*  #{$size-name}  #{$size-value}  #{rem($size-value)} */
+}
